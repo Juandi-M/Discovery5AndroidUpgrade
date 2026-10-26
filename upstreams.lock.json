@@ -1,0 +1,85 @@
+{
+  "checked_on": "2026-10-25",
+  "official_zlink": {
+    "public_source_repository_found": false,
+    "exact_latest_application_version_verified": false,
+    "product_url": "https://zjinnova.com/android-zlink.html",
+    "user_support_url": "https://www.zjinnova.com/personal.html",
+    "note": "Official pages describe APK/HAL/driver/OS integration delivery and an update assistant; no public official source repository was identified. These clones are independent references, not official ZLINK source."
+  },
+  "repositories": [
+    {
+      "id": "carlink-kotlin",
+      "url": "https://github.com/lvalen91/carlink.git",
+      "branch": "main",
+      "commit": "4aaa4913c22fef91284e9bfee0c590fa8e615ad5",
+      "committed_at": "2026-10-14T00:36:22-08:00",
+      "license": "Unlicense",
+      "path": "vendor/carlink-kotlin",
+      "purpose": "Native Kotlin receiver client; requires a Carlinkit CPC200-CCPA adapter; GM-tested, not a ZLINK replacement for LR_J.",
+      "shallow": true,
+      "submodules_initialized": false
+    },
+    {
+      "id": "device-reveng",
+      "url": "https://github.com/armeehn/device-reveng.git",
+      "branch": "main",
+      "commit": "3e09f7e3dcb62149a89ecf0bcabeb8aa6420123b",
+      "committed_at": "2026-10-23T09:00:31Z",
+      "license": "Apache-2.0",
+      "path": "vendor/device-reveng",
+      "purpose": "Kotlin launcher and ZLINK integration/reverse-engineering on rooted Choiceway GT6-EAU/QCM6125; not LR_J.",
+      "shallow": true,
+      "submodules_initialized": false
+    },
+    {
+      "id": "android-head-unit-exploration",
+      "url": "https://github.com/andresurena/android-head-unit-exploration.git",
+      "branch": "main",
+      "commit": "b4bf19375eace441997bdd31630bcdd26893a410",
+      "committed_at": "2026-07-22T10:28:20+01:00",
+      "license": "MIT",
+      "path": "vendor/android-head-unit-exploration",
+      "purpose": "ZLINK/XUNZU analysis and a different-device microphone patch; no original ZLINK source; patch unconfirmed.",
+      "shallow": true,
+      "submodules_initialized": false
+    },
+    {
+      "id": "carlink-direct",
+      "url": "https://github.com/F-e-n-y-x/CarLink.git",
+      "branch": "main",
+      "commit": "5b3cab2c01559caa989925c19e1e2bf7d02e82ab",
+      "committed_at": "2026-10-20T03:26:54+05:30",
+      "license": "AGPL-3.0",
+      "path": "vendor/carlink-direct",
+      "purpose": "Primary dongle-free native Kotlin migration candidate, Android7.1+ ARM; wireless CarPlay and car-Bluetooth audio mode; Bluetooth access/authentication integration need verification.",
+      "shallow": true,
+      "submodules_initialized": false
+    },
+    {
+      "id": "diplay",
+      "url": "https://github.com/shihabal3amri/DiPlay.git",
+      "branch": "main",
+      "commit": "9d89633035d1add5b044ba3de5e57dd078bf2511",
+      "committed_at": "2026-10-24T18:36:55+04:00",
+      "license": "GPL-3.0",
+      "path": "vendor/diplay",
+      "purpose": "Wired/wireless CarPlay engine and car-Bluetooth capability negotiation; BYD-focused, non-BYD support unverified.",
+      "shallow": true,
+      "submodules_initialized": false
+    },
+    {
+      "id": "openautolink",
+      "url": "https://github.com/mossyhub/openautolink.git",
+      "branch": "main",
+      "commit": "05d03d27c36701dd4df6893145a2190d7ac72bf4",
+      "committed_at": "2026-10-25T12:39:12-07:00",
+      "license": "GPL-3.0",
+      "path": "vendor/openautolink",
+      "purpose": "GM AAOS Android12L+ receiver reference; USB CarPlay supported, wireless CarPlay unfinished; source builds omit authentication assets.",
+      "shallow": true,
+      "submodules_initialized": false
+    }
+  ],
+  "migration_priority": "carlink-direct"
+}

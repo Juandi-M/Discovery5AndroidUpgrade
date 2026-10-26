@@ -1,0 +1,38 @@
+# macOS/editor files
+.DS_Store
+._*
+.idea/
+.vscode/
+
+# Private device evidence, locally downloaded third-party code, and secrets
+.local/
+private/
+vendor/
+.env
+.env.*
+!.env.example
+*.apk
+*.apks
+*.aab
+*.so
+*.img
+*.bin
+*.zip
+*.tar
+*.tar.gz
+*.pcap
+*.pcapng
+*.log
+*.pem
+*.key
+*.p12
+adbkey*
+
+# Generated development output
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+.gradle/
+build/
+dist/
